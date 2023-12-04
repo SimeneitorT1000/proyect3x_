@@ -1,0 +1,25 @@
+@import url('remixicon/fonts/remixicon.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Fira Code', monospace;
+}
+
+.aroundCrazy{
+   animation: aroundC 30s linear infinite;
+
+}   
+
+@keyframes aroundC {
+
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+    
+}
