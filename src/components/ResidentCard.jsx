@@ -29,7 +29,8 @@ const ResidentCard = ({residentURL}) => {
     </header>
     <section className="bg-opacity-10 text-white ">
       <h5 className=" text-[23px] p-3 ">{residentInfo?.name}</h5>
-      <div className="flex justify-between p-2">
+      <article className="grid">
+         <div className="flex justify-between p-2">
         <ul>
         <li><span className="text-gray-700">Origin</span> </li>
         <br />
@@ -45,6 +46,8 @@ const ResidentCard = ({residentURL}) => {
         <li >{residentInfo?.species}</li>
       </ul>
       </div>
+      </article>
+     
       
     </section>
   </article>
