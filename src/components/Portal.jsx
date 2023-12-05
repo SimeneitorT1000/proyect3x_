@@ -3,8 +3,8 @@ const Portal = () => {
   return (
     <div className="absolute w-full flex justify-center ">
         <img className="aroundCrazy absolute w-[545px] -top-[300px] 
-        max-md:-top-[45px] 
-        max-md:w-[280px]
+        
+        max-md:w-[250px]
         max-md:top-[-110px]" src="/portal.svg" alt="portal
         " />
         <img className="absolute top-34 
