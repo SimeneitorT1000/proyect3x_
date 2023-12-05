@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <main className="bg-[url('/bgcuerpo2.png')] bg-repeat-y w-full min-h-screen" style={{backgroundSize: '100% auto'}}>
+    <main className="bg-[url('/bgcuerpo2.png')] bg-repeat-y w-full min-h-screen overflow-x-hidden" style={{backgroundSize: '100% auto'}}>
 
 
         <Portal />

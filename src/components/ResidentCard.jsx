@@ -18,7 +18,7 @@ const ResidentCard = ({residentURL}) => {
         .catch((err)=> console.log(err));
 
     },[])
-  return <article className="border-[#8EFF8B] border-4">
+  return <article className="border-[#8EFF8B] border-4 ">
     <header className="relative border-[#8EFF8B] border-2">
       <img src={residentInfo?.image} alt="" />
       <div className="flex items-center gap-2 absolute bottom-8 left-1/3

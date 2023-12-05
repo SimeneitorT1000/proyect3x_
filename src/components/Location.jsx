@@ -15,7 +15,7 @@ const Location = ({ locationInfo, setLocationInfo }) => {
   
   return (
 
-    <section className="  text-white pt-[550px] grid gap-8 max-md:pt-[400px]">
+    <section className="  text-white pt-[350px] grid gap-8 max-md:pt-[200px]">
       <form onSubmit={handleSubmit} className="flex justify-center">
         <div className="flex border-2 border-green-500 rounded">
           <div>
