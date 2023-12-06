@@ -27,16 +27,16 @@ const ResidentCard = ({residentURL}) => {
         <span>{residentInfo?.status}</span>
       </div>
     </header>
-    <section className="bg-opacity-10 text-white ">
+    <section className=" text-white ">
       <h5 className=" text-[23px] p-3 ">{residentInfo?.name}</h5>
       <article className="grid">
          <div className="flex justify-between p-2">
         <ul>
-        <li><span className="text-gray-700">Origin</span> </li>
+        <li><span className="text-gray-500">Origin</span> </li>
         <br />
-        <li><span className="text-gray-700">Times appear</span> </li>
+        <li><span className="text-gray-500">Times appear</span> </li>
         <br />
-        <li><span className="text-gray-700">Species</span> </li>
+        <li><span className="text-gray-500">Species</span> </li>
       </ul>
       <ul>
         <li >{residentInfo?.origin.name}</li>

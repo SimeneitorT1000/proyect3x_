@@ -36,7 +36,7 @@ const Location = ({ locationInfo, setLocationInfo }) => {
       </form>
       <article className="text-center border-2 border-green-500 w-[50%] mx-auto max-lg:border-0 grid gap">
         <h2 className="text-2xl font-bold text-[24px] text-green-500 p-5 max-md:text-[15px]">Welcome to {locationInfo?.name}</h2>
-        <ul className="list-none text-gray-600 flex justify-center gap-20 p-6  max-lg:hidden">
+        <ul className="list-none text-gray-400 flex justify-center gap-20 p-6  max-lg:hidden">
           <li>Type: {locationInfo?.type}</li>
           <li>Dimension: {locationInfo?.dimension}</li>
           <li>Population: {locationInfo?.residents?.length}</li>
