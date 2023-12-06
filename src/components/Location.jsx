@@ -20,7 +20,7 @@ const Location = ({ locationInfo, setLocationInfo }) => {
         <div className="flex border-2 border-green-500 rounded">
           <div>
             <input 
-            type="number"
+            type="text"
             name="newLocation"
             placeholder="Type a location ID..."
             required
